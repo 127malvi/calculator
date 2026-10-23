@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Calculator</title>
 </head>
-<body>
+<body onload="storage()">
 
 <div id="calc_body">
     <div id="user_input">
@@ -16,71 +16,37 @@
         <p id="result"> </p>
     </div>
     <div id="numpad">
-        <div id="1"> 1 </div>
-        <div id="2"> 2 </div>
-        <div id="3"> 3 </div>
-        <div id="4"> 4 </div>
-        <div id="5"> 5 </div>
-        <div id="6"> 6 </div>
-        <div id="7"> 7 </div>
-        <div id="8"> 8 </div>
-        <div id="9"> 9 </div>
-        <div>   </div>
-        <div id="0"> 0 </div>
-        <div>   </div>
+        <button id="1" class="nums"> 1 </button>
+        <button id="2" class="nums"> 2 </button>
+        <button id="3" class="nums"> 3 </button>
+        <button id="4" class="nums"> 4 </button>
+        <button id="5" class="nums"> 5 </button>
+        <button id="6" class="nums"> 6 </button>
+        <button id="7" class="nums"> 7 </button>
+        <button id="8" class="nums"> 8 </button>
+        <button id="9" class="nums"> 9 </button>
+        <button class="nums">   </button>
+        <button id="0" class="nums"> 0 </button>
+        <button class="nums">   </button>
     </div>
     <div id="all_ops">
         <div id="op_pad">
-            <div id="plus"> + </div>
-            <div id="minus"> - </div>
-            <div id="mod"> % </div>
-            <div id="pow"> ^ </div>
-            <div id="divide"> / </div>
-            <div id="multiply"> X </div>
-            <div id="open_par"> ( </div>
-            <div id="close_par"> ) </div>
-            <div id="dot"> . </div>
+            <button id="plus"> + </button>
+            <button id="minus"> - </button>
+            <button id="mod"> % </button>
+            <button id="pow"> ^ </button>
+            <button id="divide"> / </button>
+            <button id="multiply"> X </button>
+            <button id="open_par"> ( </button>
+            <button id="close_par"> ) </button>
+            <button id="dot"> . </button>
         </div>
-        <div id="evaluate"> = </div>
+        <button id="evaluate"> = </button>
     </div>
     <div id="up/down">
-        <div id="up">  UP </div>
-        <div id="down"> DOWN </div>
+        <button id="up">  UP </button>
+        <button id="down"> DOWN </button>
     </div>
-
-
-    <!--
-    <div id="small_ops">
-        <button id="plus" class="small_op"> + </button>
-        <button id="minus" class="small_op"> - </button>
-        <button id="mod" class="small_op"> % </button>
-        <button id="pow" class="small_op"> ^ </button>
-        <button id="divide" class="small_op"> / </button>
-        <button id="multiply" class="small_op"> X </button>
-    </div>
-    <div id="big_ops">
-        <button id="up" class="big_op"> </button>
-        <button id="down" class="big_op"> </button>
-
-        <button id="evaluate"> = </button>
-
-        <button id="open_par" class="big_op"> ( </button>
-        <button id="close_par" class="big_op"> ) </button>
-        <button id="dot" class="big_op"> . </button>
-    </div>
-    <div id="num_pad">
-        <button> 1 </button>
-        <button> 2 </button>
-        <button> 3 </button>
-        <button> 4 </button>
-        <button> 5 </button>
-        <button> 6 </button>
-        <button> 7 </button>
-        <button> 8 </button>
-        <button> 9 </button>
-        <button> 0 </button>
-    </div>
-    -->
 
 </div>
 
