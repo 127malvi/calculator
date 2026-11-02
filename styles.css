@@ -4,13 +4,17 @@ body {
     grid-template-rows: repeat(5, 1fr);
 
     #entered {
-        grid-column: span 4 !important;
-        grid-row: span 1 !important;
+        grid-column: span 4;
+        grid-row: span 1;
+        margin: 10px;
+        height: 20vh;
     }
 
     #output {
-        grid-column: span 3 !important;
-        grid-row: span 1 !important;
+        grid-column: span 3;
+        grid-row: span 1;
+        margin-left: 5px;
+        height: 20vh;
     }
 
     button {
@@ -20,6 +24,7 @@ body {
         font-size: 30pt;
         grid-row: span 1;
         grid-column: span 1;
+        height: 25vh;
     }
 
     button:hover {
@@ -32,13 +37,21 @@ body {
 
     #evaluate {
         background-color: #a4c2f4ff;
+        grid-column: span 3 !important;
+        grid-row: span 1;
     }
 
     #up {
         background-color: #a4c2f4ff;
+        grid-row: span 2 !important;
+        grid-column: span 1;
+        height: 50vh;
     }
 
     #down {
         background-color: #a4c2f4ff;
+        grid-row: span 2 !important;
+        grid-column: span 1;
+        height: 50vh;
     }
 }
