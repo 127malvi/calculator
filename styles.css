@@ -3,7 +3,7 @@ body {
     grid-template-columns: repeat(7,1fr);
     grid-template-rows: repeat(5, 1fr);
 
-    input {
+    #entered {
         grid-column: span 4 !important;
         grid-row: span 1 !important;
     }
