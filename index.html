@@ -3,52 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body onload="storage()">
-
-<div id="calc_body">
-    <div id="user_input">
-        <p>Input: </p>
-        <input id="entered" type="text">
-    </div>
-    <div id="output">
-        <p>Output: </p>
-        <p id="result"> </p>
-    </div>
-    <div id="numpad">
-        <button id="1" class="nums"> 1 </button>
-        <button id="2" class="nums"> 2 </button>
-        <button id="3" class="nums"> 3 </button>
-        <button id="4" class="nums"> 4 </button>
-        <button id="5" class="nums"> 5 </button>
-        <button id="6" class="nums"> 6 </button>
-        <button id="7" class="nums"> 7 </button>
-        <button id="8" class="nums"> 8 </button>
-        <button id="9" class="nums"> 9 </button>
-        <button class="nums">   </button>
-        <button id="0" class="nums"> 0 </button>
-        <button class="nums">   </button>
-    </div>
-    <div id="all_ops">
-        <div id="op_pad">
-            <button id="plus"> + </button>
-            <button id="minus"> - </button>
-            <button id="mod"> % </button>
-            <button id="pow"> ^ </button>
-            <button id="divide"> / </button>
-            <button id="multiply"> X </button>
-            <button id="open_par"> ( </button>
-            <button id="close_par"> ) </button>
-            <button id="dot"> . </button>
+    <div id="top">
+        <div id="user_input">
+            <input id="entered" type="text">
         </div>
-        <button id="evaluate"> = </button>
+        <div id="output">
+            <p>Output: </p>
+            <p id="result"> </p>
+        </div>
     </div>
-    <div id="up/down">
-        <button id="up">  UP </button>
-        <button id="down"> DOWN </button>
-    </div>
+    <button id="1" class="nums accnum"> 1 </button>
+    <button id="2" class="nums accnum"> 2 </button>
+    <button id="3" class="nums accnum"> 3 </button>
+    <button id="plus" class="op">  +  </button>
+    <button id="minus" class="op">  -  </button>
+    <button id="mod" class="op">  %  </button>
+    <button id="up">  UP </button>
+    <button id="4" class="nums accnum"> 4 </button>
+    <button id="5" class="nums accnum"> 5 </button>
+    <button id="6" class="nums accnum"> 6 </button>
+    <button id="pow" class="op">  ^  </button>
+    <button id="divide" class="op">  /  </button>
+    <button id="multiply" class="op">  X  </button>
 
-</div>
+    <button id="7" class="nums accnum"> 7 </button>
+    <button id="8" class="nums accnum"> 8 </button>
+    <button id="9" class="nums accnum"> 9 </button>
+    <button id="open_par" class="op">  (  </button>
+    <button id="close_par" class="op">  )  </button>
+    <button id="dot" class="op"> . </button>
+
+    <button class="nums">   </button>
+    <button id="0" class="nums accnum"> 0 </button>
+    <button class="nums">   </button>
+    <button id="evaluate"> = </button>
+    <button id="down"> DOWN </button>
+
 
 <script src="index.js"></script>
 </body>
